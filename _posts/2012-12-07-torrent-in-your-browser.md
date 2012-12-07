@@ -67,7 +67,8 @@ frameborder="0" allowfullscreen="1"></iframe>
 
 Embed window:
 <div id="click" style="border:1px dashed red; padding: 1em">Click to load embed window (Chrome only)</div>
-<script src="/scripts/torrent-show.js"></script>
+<script src="/scripts/torrent-show.js">
+</script>
 
 Basically, we are downloading data from the swarm and saving it to the HTML5 FileSystem storage, then creating a video element and sourcing it to that file.
 
