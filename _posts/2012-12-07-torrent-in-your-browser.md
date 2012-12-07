@@ -14,8 +14,8 @@ would be several advantages to being able to participate it BitTorrent
 swarms in the “naked” web. By naked, I mean without any special
 plugins or software. A whole new set of users could participate in the
 BitTorrent ecosystem. From those who are unable and who are unwilling
-to install custom desktop software, as well as those who are stuck in
-<a href="http://www.apple.com">walled gardens</a>, but especially
+to install custom desktop software, to those who are stuck in
+<a href="http://www.apple.com">walled gardens</a>, but especially for
 those who don't know or don't care what torrent is.
 
 There were a number of challenges I encountered when developing the
@@ -30,7 +30,7 @@ arguments against the implementation</a>. There are polyfills that
 make use of IndexedDB, but they have severe limitations for my use
 case, which needs to support files up to multiple gigabytes in size.
 
-I went ahead anyway implementing the protocol and saving files to the
+I went ahead anyway implementing <a href="http://bittorrent.org/beps/bep_0003.html">the protocol</a> and saving files to the
 browser sandbox filesystem, intent on supporting only the Chrome
 browser for the time being. The <a
 href="https://github.com/kzahel/jstorrent">code to the first
