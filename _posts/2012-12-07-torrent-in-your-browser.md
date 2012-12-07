@@ -66,7 +66,8 @@ frameborder="0" allowfullscreen="1"></iframe>
 {% endhighlight %}
 
 Embed window:
-<div style="border:1px dashed red; padding: 1em">removed embedded window to save proxy bandwidth costs, but feel free to try and embed it yourself (with any hash of your choosing. You will get better performance with a large swarm)</div>
+<div id="click" style="border:1px dashed red; padding: 1em">Click to load embed window (Chrome only)</div>
+<script src="/scripts/torrent-show.js"></script>
 
 Basically, we are downloading data from the swarm and saving it to the HTML5 FileSystem storage, then creating a video element and sourcing it to that file.
 
