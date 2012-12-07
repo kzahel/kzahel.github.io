@@ -16,7 +16,7 @@ plugins or software. A whole new set of users could participate in the
 BitTorrent ecosystem. From those who are unable and who are unwilling
 to install custom desktop software, to those who are stuck in
 <a href="http://www.apple.com">walled gardens</a>, but especially for
-those who don't know or don't care what torrent is.
+those who don't know or don't care what a torrent is.
 
 There were a number of challenges I encountered when developing the
 prototype. The most difficult problem is the lack of wide browser
