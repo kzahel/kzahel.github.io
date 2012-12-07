@@ -33,3 +33,15 @@ layout: default
 
 
         
+{% if page.previous.url %} Previous Post: <a href="{{page.previous.url}}">
+ {{page.previous.title}}
+</a> 	{% endif %}
+- 
+
+   {% if page.next.url %} 	
+Next Post: <a href="{{page.next.url}}">
+{{page.next.title}}
+
+
+</a> 	{% endif %} </p>  
+
