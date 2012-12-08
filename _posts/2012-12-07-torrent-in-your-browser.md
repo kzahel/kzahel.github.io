@@ -76,7 +76,7 @@ Since the file is not completely downloaded, the video element will not be immed
 
 When seeking to somewhere in the middle of the file, we need to manually calculate using the mp4 keyframe and time to sample tables which byte offsets the video player will actually use, and prioritize downloading that data from the swarm.
 
-The implementation is very much at an early prototype stage, but it would be interesting to see how good the performance could be if each stage in this process were optimized. For example, it would be better to make use of the new <a href="http://dvcs.w3.org/hg/html-media/raw-file/tip/media-source/media-source.html">MediaSource API</a> being developed my Microsoft, Google, and Netflix. And it would be much better if every torrent video was encoded in multiple bitrates so that it could be compatible with MPEG-DASH.
+The implementation is very much at an early prototype stage, but it would be interesting to see how good the performance could be if each stage in this process were optimized. For example, it would be better to make use of the new <a href="http://dvcs.w3.org/hg/html-media/raw-file/tip/media-source/media-source.html">MediaSource API</a> being developed by Microsoft, Google, and Netflix. And it would be much better if every torrent video was encoded in multiple bitrates so that it could be compatible with MPEG-DASH.
 
 I am currently working on a prototype to add support to other browsers (such as iOS Safari) that lack the FileSystem API. Instead of saving back to a local disk (which happen to be relatively small on mobile devices anyway), it would save to Google Drive or Dropbox's multipart upload APIs.
 
