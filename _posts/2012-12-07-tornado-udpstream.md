@@ -33,7 +33,9 @@ class UDPStream(object):
         return self.socket.recv(sz)
     
     def close(self):
+        self.ioloop.remove_handler(self.socket.fileno())
         self.socket.close()
+        self.socket = None
 
     def read_chunk(self, callback=None, timeout=4):
         self._read_callback = callback
