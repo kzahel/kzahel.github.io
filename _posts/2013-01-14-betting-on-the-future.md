@@ -6,7 +6,7 @@ tags: futurism
 ---
 
 My <a href="http://jonathan.graehl.org">brother</a> pointed out this
-article at http://squid314.livejournal.com/352406.html. The author
+article at <a href="http://squid314.livejournal.com/352406.html">http://squid314.livejournal.com/352406.html</a>. The author
 makes the point that prediction markets could be the most efficient
 and accurate way to reliably predict the future. A prediction market
 is some kind of system where you can bet on future outcomes based on
