@@ -23,7 +23,7 @@ measurable and less favorable outcome will result. I view it as a kind
 of altruistic gambling.
 
 You can play with such prediction markets at
-http://www.intrade.com/. There are currently many asinine questions on
+<a href="http://www.intrade.com/">http://www.intrade.com</a>. There are currently many asinine questions on
 there like "Will Lincoln win best picture." As such, it has apparently
 been classified as off market trading or gambling by the US govt and I
 think it's not currently advisable or possible to trade inside the US.
@@ -31,7 +31,7 @@ think it's not currently advisable or possible to trade inside the US.
 Personally, I hardly see how buying shares in AAPL vs betting that Les
 Miserables wins best picture are much different. I suppose it has
 something to do with there being no oversight into the obvious type of
-corruption that could result in this type of trading.
+corruption that could result from this type of trading.
 
 What the article seems to be arguing, though, is that with enough
 liquidity, that these problems are self-correcting?
