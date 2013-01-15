@@ -9,7 +9,7 @@ I finally released something based on the <a href="https://github.com/kzahel/jst
 
 You can download the <a
 href="https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb">packaged app</a> from
-google play. If you're not aware, packaged apps like like browser
+google play. If you're not aware, packaged apps are like browser
 extensions, only they get their own top level window. As of the date
 of this writing, they are not searchable within the google app store
 that you find in your chrome browser, but should be at some point.
