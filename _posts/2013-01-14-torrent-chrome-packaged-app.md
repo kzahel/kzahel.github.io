@@ -5,14 +5,14 @@ category: coding
 tags: bittorrent, html5, chrome
 ---
 
-I finally released something based on the <a href="https://github.com/kzahel/jstorrent">jstorrent code</a>. 
+I finally released something based on the jstorrent code. 
 
 You can download the <a
 href="https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb">packaged app</a> from
 google play. If you're not aware, packaged apps are like browser
 extensions, only they get their own top level window. As of the date
 of this writing, they are not searchable within the google app store
-that you find in your chrome browser, but should be at some point.
+that you find in your chrome browser, but should be at some point. There is an ongoing <a href="https://groups.google.com/forum/?fromgroups=#!topic/chromebook-central/DXJmD1ZUK2Q">discussion thread on google groups</a> for commonly encountered issues.
 
 It's pretty neat, having access to raw sockets. The goal of jstorrent is to work with any type of connection, be it websockets, webrtc, or raw sockets. I like the abstraction of an "IOStream" that I picked up while working with <a href="https://github.com/facebook/tornado">tornado</a>.
 
