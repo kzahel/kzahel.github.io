@@ -5,7 +5,7 @@ category: programming
 tags: jstorrent
 ---
 
-I finally have a working prototype of saving a torrent to your cloud disk. The motivation for this was to be able to consume torrent content while on an iOS device, such as an iPad. Check out <a href="http://jstorrent.com">JSTorrent.com</a>. 
+I finally have a working prototype of saving a torrent to your cloud disk. The motivation for this was to be able to consume torrent content while on an iOS device, such as an iPad. Check out <a href="http://jstorrent.com">JSTorrent.com</a>. (Note: the iOS App store does not approve of "torrent" apps, so we need to put the app in the browser instead)
 
 On your first visit, you'll be prompted to sign into your google account. Don't worry, it will only ask for access to write and read from files in its own sandbox. It doesn't even ask for your identity or other information.
 
