@@ -2,7 +2,7 @@
 layout: post
 title: Torrent in a google chrome packaged app.
 category: coding
-tags: bittorrent, html5, chrome
+tags: bittorrent, html5, chrome, jstorrent
 ---
 
 I finally released something based on the jstorrent code. 
