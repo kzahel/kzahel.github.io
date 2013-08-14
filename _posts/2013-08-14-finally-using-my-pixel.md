@@ -52,9 +52,9 @@ unbind C-b
 set -g prefix C-t
 {% endhighlight %}
 
-If you want to use an X11 program from aptitude (say you download an
+If you want to use an X11 program from aptitude ( say you download an
 MKV using
-[jstorrent](https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb),
-your chroot will have a useful "host-x11" command that prints out some
-environment variables that you can set and then run the program in the
-current X server.
+[jstorrent](https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
+and want to use VLC to watch it), you can do so using the useful
+"host-x11" command that prints out some environment variables that you
+can set and then run the program in the current X server.
