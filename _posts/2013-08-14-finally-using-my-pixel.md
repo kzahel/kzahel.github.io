@@ -2,7 +2,7 @@
 layout: post
 title: "finally using my pixel!"
 date: 2013-08-14 10:11
-comments: false
+comments: true
 categories: pixel, chromeos, development
 ---
 
@@ -24,7 +24,7 @@ Open your terminal (ctrl-alt-T in Chrome) and open the developer tools, and go t
 term_.prefs_.set('audible-bell-sound', '')
 ```
 
-If you're an emacs user, you'll want to set some other options (found from [hterm FAQ](http://git.chromium.org/gitweb/?p=chromiumos/platform/assets.git;a=blob;f=chromeapps/hterm/doc/faq.txt;h=f0d3007f9fc54c7331f68293b7fae5f5b71214ff;hb=95f6a2c7a984b1c09b7d66c24794ce2057144e86))
+If you're an emacs user, you'll want to set some other options ( found from [hterm FAQ](http://git.chromium.org/gitweb/?p=chromiumos/platform/assets.git;a=blob;f=chromeapps/hterm/doc/faq.txt;h=f0d3007f9fc54c7331f68293b7fae5f5b71214ff;hb=95f6a2c7a984b1c09b7d66c24794ce2057144e86) )
 
 ```
 term_.prefs_.set('alt-backspace-is-meta-backspace',true)
@@ -42,17 +42,15 @@ Now you'll probably want to use tmux because it's such a pain to bring up more t
 
 
 
-```
+{% highlight bash %}
 # inside your ~/.tmux.conf
-
 # allow scrolling through history buffers
 set-window-option -g mode-mouse on
-
 # I use C-b a lot inside emacs, so 
 # rebind tmux to use C-t, which I never use
 unbind C-b
 set -g prefix C-t
-```
+{% endhighlight %}
 
 If you want to use an X11 program from aptitude (say you download an
 MKV using
