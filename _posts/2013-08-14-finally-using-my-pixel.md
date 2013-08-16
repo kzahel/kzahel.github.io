@@ -57,4 +57,15 @@ MKV using
 [jstorrent](https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)
 and want to use VLC to watch it), you can do so using the useful
 "host-x11" command that prints out some environment variables that you
-can set and then run the program in the current X server.
+can set and then run the program in the current X server. Best to put
+it in your ~/.bashrc
+
+{% highlight bash %}
+eval $(host-x11)
+{% endhighlight %}
+
+I'm not used to using terminal emacs (have used emacs with the gtk
+interface for a long time) and I end up opening a lot of separate
+emacs processes. Copy/paste between them is a pain, so I ended up
+using [some clipboard functions](http://blog.binchen.org/?p=589) to
+allow copy/paste (remember to "apt-get install xsel")
