@@ -73,4 +73,14 @@ allow copy/paste (remember to "apt-get install xsel")
 I am sometimes wondering if the fan is turning itself on too
 aggressively and harming my battery life. /sys/devices/virtual/thermal
 has a bunch of devices. I would like to try manually disabling the
-fans on occasion.
+fans on occasion. But I'll hold off on that
+
+If you use an SSH passphrase, Another nice thing to put in your
+~/.profile would be a keychain. apt-get install keychain and then you
+won't have to type in your ssh key (your SSH key does have a
+passphrase, right?)
+
+{% highlight bash %}
+keychain --attempts 3 -q ~/.ssh/id_rsa
+. ~/.keychain/$HOSTNAME-sh
+{% endhighlight %}
