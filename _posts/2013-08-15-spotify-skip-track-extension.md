@@ -10,3 +10,5 @@ I just published a very simple extension to skip to the next track in the [spoti
 [chrome web store link](https://chrome.google.com/webstore/detail/cioodogigbffcemogihoifckgacjaakc). The source code is also on [github](https://github.com/kzahel/skip-track-extension).
 
 Make sure to set a keyboard shortcut for easiest use (go to the [chrome extensions page](chrome://extensions) and on the bottom click "Keyboard shortcuts". Enjoy!
+
+I'm working on a more [featurefull extension](https://github.com/kzahel/spotify-web-extension) that will allow you to do more than just skip tracks :-)

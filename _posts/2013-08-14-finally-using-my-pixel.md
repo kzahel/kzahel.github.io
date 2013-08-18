@@ -69,3 +69,8 @@ interface for a long time) and I end up opening a lot of separate
 emacs processes. Copy/paste between them is a pain, so I ended up
 using [some clipboard functions](http://blog.binchen.org/?p=589) to
 allow copy/paste (remember to "apt-get install xsel")
+
+I am sometimes wondering if the fan is turning itself on too
+aggressively and harming my battery life. /sys/devices/virtual/thermal
+has a bunch of devices. I would like to try manually disabling the
+fans on occasion.
