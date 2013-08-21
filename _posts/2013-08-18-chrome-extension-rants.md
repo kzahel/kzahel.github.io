@@ -23,7 +23,7 @@ I have been hacking on a chrome extension for the past few days for a
 [hack project](https://github.com/kzahel/spotify-web-extension). I
 have not written an extension before (having only done chrome platform
 apps
-(i.e. [jstorrent](https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb). Compared
+, i.e. [jstorrent](https://chrome.google.com/webstore/detail/jstorrent/anhdpjpojoipgpmfanmedjghaligalgb)). Compared
 to packaged apps, chrome extensions are _hard_. Content scripts are a
 pretty weird thing, and I am spending as much time on stack overflow
 and [chromium issues](code.google.com/p/chromium/issues) as I am in my editor.

@@ -12,6 +12,8 @@ I really liked the hardware of the machine and when I first got it I tried crout
 
 I did manage to settle on a development environment that suits me alright.
 
+Little known tip. Shift-Control-plus and Shift-Control-minus do a GLOBAL zoom in/out. If you want more screen real estate quickly then you can use your tiny display as if it were a full 2560 monitor. Super useful!
+
 First of all, enable developer mode. Then follow crouton instructions to setup your linux "VM" (a chroot actually) at [crouton](https://github.com/dnschneid/crouton).
 
 I recommend setting a chromeos root password as well as using encryption for your chroot for added security. (otherwise any other local user would be able to inspect the data in your chroot, which means anyone with physical access would be able to look at your shit pretty easily)
