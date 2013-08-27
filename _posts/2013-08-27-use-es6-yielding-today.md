@@ -52,10 +52,8 @@ code that looks synchronous, but doesn't block the event loop. This is
 a definite readability win, as opposed to minor gains you get with
 things like CoffeeScript.
 
-If you're already compiling your application into javascript, you
-might as well do it with traceur and get some actual cool features (unlike
-CoffeeScript, which only gives you ambiguous looking syntax that omits
-parenthesis with function calls, ick)
+The Grand Finale
+====
 
 {% highlight javascript %}
 var url = 'http://example.com/api';
@@ -69,6 +67,10 @@ run()
 
 {% endhighlight %}
 
+If you're already compiling your application into javascript, you
+might as well do it with traceur and get some actual cool features (unlike
+CoffeeScript, which only gives you ambiguous looking syntax that omits
+parenthesis with function calls, ick)
 
 Have fun, and be safe!
 
