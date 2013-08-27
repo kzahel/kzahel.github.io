@@ -116,7 +116,6 @@ function run() {
           $state = 3;
           break;
         case 3:
-          debugger;
           $state = 9;
           break;
         case 9:
