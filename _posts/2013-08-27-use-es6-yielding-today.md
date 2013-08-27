@@ -47,7 +47,7 @@ var simpleGet = function(url) {
 
 {% endhighlight %}
 
-Now here's the cool part, that we've been waiting for. You can now write
+Now here's the cool part that we've been waiting for. You can now write
 code that looks synchronous, but doesn't block the event loop. This is
 a definite readability win, as opposed to minor gains you get with
 things like CoffeeScript.
