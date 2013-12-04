@@ -10,13 +10,11 @@ I've been tweaking JSTorrent to add support for writing directly to
 user selected directories.
 
 In the manifest file, you need to add the "write", "directory", and
-"retainEntries" permissions. The documentation is here
-http://developer.chrome.com/apps/fileSystem.html.
+"retainEntries" permissions. The documentation is [here](http://developer.chrome.com/apps/fileSystem.html)
 
 The tricky part is handling external media. There's a way to get
 events when external media is attached and detached. You need to
-request "system.storage" permission. Docs here
-http://developer.chrome.com/apps/system_storage.html
+request "system.storage" permission. Docs [here](http://developer.chrome.com/apps/system_storage.html)
 
 Unfortunately the directory "Entry" given by
 chrome.fileSystem.chooseEntry with the {type:"directory"} option does
