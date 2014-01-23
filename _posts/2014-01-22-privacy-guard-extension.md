@@ -12,6 +12,7 @@ Recently there have been a few articles about malware extensions in
 the Chrome Web Store. Of course, malware and spyware has been rampant
 in the Chrome Web Store for quite a while already.
 
+- [Article on arstechnica](http://arstechnica.com/security/2014/01/malware-vendors-buy-chrome-extensions-to-send-adware-filled-updates/?)
 - [Article on OMGChrome](http://www.omgchrome.com/chrome-users-start-raise-awareness-extensions-known-peddle-adware/)
 - [Article on Android Authority](http://m.androidauthority.com/google-chrome-ad-injecting-extensions-337074/)
 
