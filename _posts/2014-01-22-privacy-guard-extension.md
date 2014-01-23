@@ -6,12 +6,14 @@ comments: true
 categories: javascript development chrome-extension privacy
 ---
 
+Today I am releasing a very simple Chrome extension, [Privacy Guard](https://chrome.google.com/webstore/detail/privacy-guard/edcajbacgdcdeecojhlllbgingbjfbmk).
+
 Recently there have been a few articles about malware extensions in
 the Chrome Web Store. Of course, malware and spyware has been rampant
 in the Chrome Web Store for quite a while already.
 
-[Article on OMGChrome](http://www.omgchrome.com/chrome-users-start-raise-awareness-extensions-known-peddle-adware/)
-[Article on Android Authority](http://m.androidauthority.com/google-chrome-ad-injecting-extensions-337074/)
+- [Article on OMGChrome](http://www.omgchrome.com/chrome-users-start-raise-awareness-extensions-known-peddle-adware/)
+- [Article on Android Authority](http://m.androidauthority.com/google-chrome-ad-injecting-extensions-337074/)
 
 Lifehacker recently featured [an
 article](http://lifehacker.com/chrome-protector-notifies-you-if-youre-running-an-adwa-1505371480?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+lifehacker%2Ffull+%28Lifehacker%29)
