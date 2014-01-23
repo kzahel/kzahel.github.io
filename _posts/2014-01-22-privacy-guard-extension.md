@@ -36,6 +36,6 @@ The "Access your data on all websites" permission means that the extension can s
 
 So, make your reasonable voice heard, and re-evaluate whether you need to have high risk extensions installed. At the very least, take a look at who is publishing the extension and make a judgement as to whether you can trust the publisher.
 
-I have a few ideas for more features to add to the Privacy Guard extension. I want to store the publisher data and be able to notify the user when an extension's publisher is changed. I also would like to be able to mark certain publishers as exempt (for example, if you want to trust all Google apps and extensions).
+I have a few ideas for more features to add to the Privacy Guard extension. I want to store the publisher data and be able to notify the user when an extension's publisher is changed. I also would like to be able to mark certain publishers as exempt (for example, if you want to trust all Google apps and extensions). And of course, I want to add actions inside the app to disable and remove extensions. I may also incorporate lists of extensions known to have bad behaviors (injecting ads without notice, stealing affiliate links)
 
 tldr; Give [Privacy Guard](https://chrome.google.com/webstore/detail/privacy-guard/edcajbacgdcdeecojhlllbgingbjfbmk) a try.
