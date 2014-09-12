@@ -6,6 +6,9 @@ comments: true
 categories: javascript development chrome-app
 ---
 
+(Update -- I found out what the problem was. The app was being "suspended" and I was not listening for the event. When an app is suspended, nothing is guaranteed to work anymore). So make sure and listen for the chrome.runtime.onSuspend event!
+
+
 I've been trying to fix a bug in JSTorrent for the past few days. The
 problem I'm seeing is that an HTML5 DirectoryEntry reference becomes
 "stuck" -- doing any sort of request against it like .getFile() or
