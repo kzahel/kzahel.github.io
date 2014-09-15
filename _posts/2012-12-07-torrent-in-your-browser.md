@@ -5,6 +5,7 @@ category: coding
 tags: bittorrent, html5
 ---
 
+This post contains outdated information! Proceed reading with a grain of salt. I've abandoned trying to get torrents working on the open web platform :-)
 
 I started working on an HTML5 torrent client a few months ago when I
 had the realization that if enough BitTorrent clients would accept
